@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	Escribir "ingresar la cantidad de llantas que se van a comprar"
+	Leer a
+	Si a <= 5 Entonces
+		Escribir a * 800
+	SiNo 
+		Escribir a >=5
+		Escribir a * 700
+	Fin Si
+
+FinAlgoritmo

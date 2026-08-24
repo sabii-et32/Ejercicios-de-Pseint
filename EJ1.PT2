@@ -1,0 +1,9 @@
+Algoritmo sin_titulo
+	Escribir "ingresar edad"
+	Leer a
+	Si a > 18 Entonces
+		Escribir "Puede votar"
+	SiNo
+		Escribir "no puede votar"
+	Fin Si
+FinAlgoritmo

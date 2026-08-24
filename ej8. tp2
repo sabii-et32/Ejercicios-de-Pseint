@@ -1,0 +1,17 @@
+Algoritmo sin_titulo
+	Escribir "ingresar primer numero"
+	Leer a
+	Escribir "ingresar segundo numero"
+	Leer b
+	Escribir "ingresar tercer numero"
+	Leer c
+	Si a+b >c Entonces
+		Escribir "es mayor"
+		Si a+b < c
+			Escribir "es menor"
+		FinSi
+		
+	SiNo
+		Escribir "son iguales"
+	Fin Si
+FinAlgoritmo

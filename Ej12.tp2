@@ -1,0 +1,18 @@
+Algoritmo sin_titulo
+	Escribir "Ingresar categoria del empleado"
+	Leer a
+	Segun a Hacer
+		A:
+			Escribir "= $1000"
+		B:
+			Escribir " = $2000"
+		C:
+			Escribir "= $3500"
+			
+		D:
+		    Escribir "= $5000"
+			
+		De Otro Modo:
+			Escribir "Error"
+	Fin Segun
+FinAlgoritmo

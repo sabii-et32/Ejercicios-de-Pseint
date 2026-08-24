@@ -1,0 +1,16 @@
+Algoritmo sin_titulo
+	
+	Escribir "ingresar temperatura"
+	Leer a
+	
+	Si a <= 10  Entonces
+		Escribir "hace frio"
+		SINO 
+	  Si a >= 25 Entonces
+		Escribir "hace calor"
+		
+	SiNo
+		Escribir "esta templado"
+	Fin Si
+	Fin si
+FinAlgoritmo

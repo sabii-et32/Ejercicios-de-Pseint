@@ -1,0 +1,14 @@
+Algoritmo sin_titulo
+	Escribir "Ingresar monto en dolares"
+	Leer a
+	Escribir "Ingresa el tipo de cambio"
+	Leer b
+	Segun b Hacer
+		1:
+			Escribir a*1449,55 "Pesos"
+		2:
+			Escribir a*0,86 "Euro"
+		3:
+			Escribir a*5,07 "reales"
+	Fin Segun
+FinAlgoritmo

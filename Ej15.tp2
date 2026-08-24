@@ -1,0 +1,19 @@
+Algoritmo sin_titulo
+	Escribir "Ingresar nota en numero"
+	Leer a
+	Segun a Hacer
+		10, 9:
+			Escribir "Excelente"
+		8, 7:
+			Escribir "Muy bueno"
+		6:
+			Escribir "Aprobado"
+		5,4,3,2,1:
+			Escribir "Insuficiente"
+			
+		De Otro modo:
+			Escribir "Error"
+	Fin Segun
+
+	
+FinAlgoritmo

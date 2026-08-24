@@ -1,0 +1,9 @@
+Algoritmo sin_titulo
+	Escribir "Ingresar el monto"
+	Leer a
+	Si a >=100 Entonces
+		Escribir a- a*0.15
+	SiNo
+		Escribir "no aplica el descuento"
+	Fin Si
+FinAlgoritmo

@@ -1,0 +1,12 @@
+Algoritmo sin_titulo
+	Escribir "Ingresar el primer numero"
+	Leer a
+	Escribir "ingresar el segundo numero"
+	Leer b
+	Si b < a Entonces
+		Escribir "el segundo numero es menor"
+	SiNo
+		Escribir"el primer numero es menor"
+		
+	Fin Si
+FinAlgoritmo

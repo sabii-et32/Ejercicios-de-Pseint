@@ -1,0 +1,19 @@
+Algoritmo sin_titulo
+	Escribir "ingresar codigo"
+	Leer a
+	Segun a Hacer
+		1:
+			Escribir "Agua = $10"
+		2:
+			Escribir "Jugo = $20"
+		3:
+			Escribir "refresco = $30"
+			
+		4:
+		    Escribir "cafe = $50"
+			
+		De Otro Modo:
+			Escribir "Error"
+	Fin Segun
+	
+FinAlgoritmo

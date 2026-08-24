@@ -1,0 +1,12 @@
+Algoritmo sin_titulo
+	Escribir "ingresar año de nacimiento"
+	Leer a
+	Escribir "ingresar año actual"
+	Leer b
+	Escribir b-a
+	Si a mod 4 = 0 Entonces
+		Escribir "nacio en año bisiesto"
+	SiNo
+		Escribir "No nacio en año bisiesto"
+	Fin Si
+FinAlgoritmo
