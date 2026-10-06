@@ -1,0 +1,27 @@
+.body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4teNxwFnjMx5PD9xisqIexa3xkrrdm7LSYy_PAkqvuw&s=10");
+    background-position: center;
+}
+.tarjeta{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+}
+.h1{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    
+}
+
+.h2{
+ font-family: 'Times New Roman', Times, serif ;
+color:cornflowerblue
+ 
+}
+
+.div menu{
+    background-color: rgb(234, 241, 135);
+  }
+  

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preventa Manhwa - Regalo de Cumpleaños (Resuelto)</title>
+    <style>
+        
+    <div class="container">
+        <span class="badge">Exclusivo Preventa</span>
+        <h1>Tu Regalo de Cumpleaños</h1>
+        <p>Ingresá tu fecha de nacimiento. Si comprás el manhwa en tu mes de cumpleaños, te sumamos un regalo especial a tu paquete de preventa.</p>
+
+        <!-- Formulario para los ejercicios -->
+        <div class="form-group">
+            <label for="fechaNacimiento">Seleccioná tu fecha de cumpleaños:</label>
+            <input type="date" id="fechaNacimiento">
+        </div>
+
+        <button id="btnVerificar">Reclamar Mi Regalo</button>
+
+        <!-- Contenedor de respuestas -->
+        <div id="resultado">
+            <h3 id="resultadoTitulo" style="margin: 0 0 5px 0; color: var(--primary);"></h3>
+            <p id="resultadoTexto" style="margin: 0;"></p>
+        </div>
+    </div>
+
+    <script>
+        // RESOLUCIÓN DE LA CONSIGNA 1: Verificación de Mayoría de Edad
+        document.getElementById('btnVerificar').addEventListener('click',function() {
+            // 1. Capturamos el elemento del input fecha y los contenedores de respuesta
+            const inputFecha = document.getElementById('fechaNacimiento').value;
+            const contenedorResultado = document.getElementById('resultado');
+            const resultadoTitulo = document.getElementById('resultadoTitulo');
+            const resultadoTexto = document.getElementById('resultadoTexto');
+
+            // Validar que el usuario haya seleccionado una fecha
+            if (!inputFecha) {
+                alert("Por favor, seleccionará una fecha válida.");
+                devolver;
+            }
+
+            // 2. Extraemos el año de nacimiento (convertido a número)
+            // El formato de input[type="date"] es AAAA-MM-DD
+            const añoNacimiento = parseInt(inputFecha.split('-')[0]);
+
+            // 3. Calculamos el año actual de forma dinámica
+            const añoActual = new Date().getFullYear();
+            const edadPersona = añoActual - añoNacimiento;
+
+            // 4. Aplicamos la estructura condicional (if / else)
+            if (edadPersona >= 18) {
+                resultadoTitulo.innerText = "¡RESERVA PERMITIDA!";
+                resultadoTexto.innerText = "Acceso concedido a la preventiva oficial. Tu edad registrada es " + edadPersona + " años.";
+                contenedorResultado.style.borderLeftColor = "#45f3ff"; // Color cian de éxito
+            } else {
+                resultadoTitulo.innerText = "ACCESO RESTRINGIDO";
+                resultadoTexto.innerText = "Necesitás autorización de tus tutores para reservar el contenido +18.";
+                contenedorResultado.style.borderLeftColor = "#ff4545"; // Color rojo de advertencia
+            }
+
+            // 5. Hacemos visible el cuadro de resultados cambiándole el display
+            contenedorResultado.style.display = "block";
+        });
+    </script>
+</body>
+</html>

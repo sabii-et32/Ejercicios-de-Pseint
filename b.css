@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf5ff;
+    color: #30203e;
+}
+
+header {
+    background-color: #512080;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header span {
+    color: #d9b5ff;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e0c2ff;
+}
+
+.inicio {
+    background-color: #ead8fa;
+    padding: 60px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.texto {
+    max-width: 450px;
+}
+
+.inicio h2 {
+    font-size: 42px;
+    color: #512080;
+    margin-bottom: 20px;
+}
+
+.inicio p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.inicio img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #512080;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+}
+
+.boton:hover {
+    background-color: #7b3bb2;
+}
+
+.producto {
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.producto h2, .elegir h2 {
+    color: #7b3bb2;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.producto p {
+    max-width: 650px;
+    margin: auto;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.producto img {
+    width: 230px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.elegir {
+    background-color: #ead8fa;
+    text-align: center;
+    padding: 50px 8%;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 220px;
+    box-shadow: 0 3px 10px #00000015;
+}
+
+.tarjeta h3 {
+    color: #652b99;
+    margin-bottom: 20px;
+}
+
+.tarjeta p {
+    line-height: 1.5;
+}
+
+
