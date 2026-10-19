@@ -1,0 +1,26 @@
+h1{
+    color:rgb(255, 136, 165);
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    letter-spacing:3px;
+    word-spacing:5px;
+    font-family: monospace; 
+    
+}
+
+.Nombre {
+    background-color:rgb(255, 213, 229);
+    width:800px;
+    padding:100px;
+    border:2px solid black;
+    border-radius:15px;
+    box-shadow:4px 10px pink;
+    text-align: center;
+}
+
+.buttondeinicio {
+     background-color:rgb(241, 243, 151);
+     border: 2px solid black;
+     box-shadow: 0 4px 10px gray;
+     padding:20px;
+     box-align:center;
+}
