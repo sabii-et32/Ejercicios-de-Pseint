@@ -1,0 +1,129 @@
+ body {
+    margin: 0;
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #fce4ec, #e3f2fd, #fff8dc);
+    color: #55516a;
+}
+
+h1 {
+    font-size: 36px;
+    color: #72577d;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #72577d;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.temas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.temas button {
+    min-height: 145px;
+    padding: 20px 15px;
+    border: 1px solid #e5cddd;
+    border-radius: 18px;
+    font-family: Arial, sans-serif;
+    color: #5e536b;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    transition: 0.2s;
+}
+
+.organizacion {
+    background-color: #f8d9e7;
+}
+
+.redes {
+    background-color: #d9edfc;
+}
+
+.arduino {
+    background-color: #fff0bd;
+}
+
+.logica {
+    background-color: #d9edfc;
+}
+
+.pseint {
+    background-color: #f8d9e7;
+}
+
+.matrices {
+    background-color: #fff0bd;
+}
+
+.html {
+    background-color: #d9edfc;
+}
+
+.css {
+    background-color: #f8d9e7;
+}
+
+.javascript {
+    background-color: #fff0bd;
+}
+
+.icono {
+    font-size: 30px;
+}
+
+.nombre-tema {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.temas button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px #b8aabb55;
+}
+
+.perfil {
+    margin-top: 25px;
+    padding: 13px 30px;
+    background-color: #e8dcf7;
+    color: #5e536b;
+    border: 1px solid #d4c2eb;
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.perfil:hover {
+    background-color: #ddcef1;
+}
+
+@media (max-width: 600px) {
+    .temas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+}
